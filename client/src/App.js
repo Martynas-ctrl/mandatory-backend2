@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      listID: [{ title: 'Incompleted', id: '0' },{ title: 'In Progress', id: '1' },{ title: 'Completed', id: '2' }],
+      listID: [{ title: 'Uncompleted', id: '0' },{ title: 'In Progress', id: '1' },{ title: 'Completed', id: '2' }],
     };
   };
 

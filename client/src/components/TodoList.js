@@ -275,9 +275,9 @@ class TodoList extends Component {
                         <button className='btn_update' onClick={this.updTodo}>Update</button>
                         <button className='btn_delete' onClick={this.deleteTodo.bind(this, todo[1])} key={todo[1]}>Delete</button>
                         <div style={{display:'flex', flexDirection:'row' }}>
-                          <button className='btn_move' onClick={this.moveToList1}>move to List1</button>
-                          <button className='btn_move' onClick={this.moveToList2}>move to List2</button>
-                          <button className='btn_move' onClick={this.moveToList3}>move to List3</button>
+                          <button className='btn_move' onClick={this.moveToList1}>Uncompleted</button>
+                          <button className='btn_move' onClick={this.moveToList2}>In Progress</button>
+                          <button className='btn_move' onClick={this.moveToList3}>Completed</button>
                         </div>
                       </div>
                   )}
