@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background-color: #23272a;
+}
+
+body {
+  background-color: #23272a;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+}
